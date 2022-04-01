@@ -22,6 +22,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>liga.store</groupId>
                 <artifactId>common-dto</artifactId>
@@ -37,6 +38,7 @@
                 <artifactId>common-utils</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
@@ -55,7 +57,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
-                <version>${springboot.test.version}</version>
+                <version>${spring.boot.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
